@@ -42,7 +42,7 @@ export default class WeightTracker extends React.Component {
         <View style={styles.renderContainer}>
             <View style={{flexDirection:'row'}}>
                 <Text style={styles.KEY_STYLE}>Weight: </Text>
-                <Text style={styles.VALUE_STYLE}>{item.weight}</Text>
+                <Text style={styles.VALUE_STYLE}>{`${item.weight} Kg`}</Text>
             </View>
             <View style={{flexDirection:'row'}}>
                 <Text style={styles.KEY_STYLE}>Date:    </Text>

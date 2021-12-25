@@ -76,7 +76,7 @@ const WeightTrackerForm = (props) => {
                 <TextField
                     onChangeText={(text) => setText(text)}
                     value={text}
-                    placeHolder={"Enter the weight"}
+                    placeHolder={"Enter the weight(in Kg)"}
                     keyboardType="numeric"
                 />
                 <TextField
