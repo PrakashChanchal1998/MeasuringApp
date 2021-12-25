@@ -22,7 +22,7 @@ const WeightTrackerForm = (props) => {
          const date=(route) ? route.item.date:moment().format('YYYY-MM-DD')
          const weight=(route)?route.item.weight:''
          setDate(date)
-        / setText(weight)
+         setText(weight)
     },[])
     const onsubmit=()=>{
         let realm,uid;
